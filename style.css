@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white;
+    overflow: hidden;
 }
 ul{
     width: 100%;
@@ -20,6 +21,9 @@ a{
     text-decoration: none;
     margin: 20px 50px;
 }
+a:hover{
+    color: red;
+}
 .con{
     width: 100%;
     display: flex;
@@ -37,6 +41,7 @@ a{
 }
 img{
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 .wrap{
