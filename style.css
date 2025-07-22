@@ -22,3 +22,7 @@ ul{
     width: 50%;
     height: 500px;
 }
+img{
+    width: 100%;
+    object-fit: cover;
+}
