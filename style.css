@@ -6,8 +6,18 @@ ul{
     width: 100%;
     height: 100px;
     display: flex;
+    justify-content: center;
     background-color: gray;
     list-style-type: none;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 .con{
     width: 100%;
@@ -25,4 +35,7 @@ ul{
 img{
     width: 100%;
     object-fit: cover;
+}
+.wrap{
+    padding: 20px;
 }
