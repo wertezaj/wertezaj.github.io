@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/wertezaj.github.io/">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/species" element={<Species />} />
@@ -18,6 +18,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </React.StrictMode>
 )
+
+
 
 /* createRoot(document.getElementById('root')).render(
   <StrictMode>
